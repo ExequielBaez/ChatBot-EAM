@@ -1,5 +1,5 @@
 const {addKeyword, gotoFlow} = require('@bot-whatsapp/bot')
-const flowCandidato = require('./flowCandidato')
+const flowCandidato = require('../flowCandidato')
 
 module.exports = addKeyword('1')
 .addAnswer(['📄 Los Requisitos de Ingreso son:'])
@@ -21,7 +21,7 @@ module.exports = addKeyword('1')
     ] , null,
     async (_,{gotoFlow}) =>
         {
-            return gotoFlow(require('./flowCandidato'))
+            return gotoFlow(require('../flowCandidato'))
                  
     }
     

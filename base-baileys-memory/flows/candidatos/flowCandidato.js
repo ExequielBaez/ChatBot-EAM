@@ -1,5 +1,7 @@
 const {addKeyword} = require('@bot-whatsapp/bot')
-const flowIncorporacion = require('./flowIncorporacion')
+const flowIncorporacion = require('./Incorporacion/flowIncorporacion')
+const flowCarrera = require('./Carrera/flowCarrera')
+const flowConsultas = require('./ConsultasGnrls/flowConsultas')
 
 module.exports = addKeyword('1')
 .addAnswer(['📄 Para guiarte mejor, indicanos el número que corresponda:'])
@@ -11,5 +13,5 @@ module.exports = addKeyword('1')
     ] ,
     null,
     null,
-    [flowIncorporacion]     
+    [flowIncorporacion, flowCarrera, flowConsultas]     
 )
