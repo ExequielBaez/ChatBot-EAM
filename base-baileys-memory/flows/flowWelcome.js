@@ -1,6 +1,8 @@
 
 const {addKeyword, EVENTS} = require('@bot-whatsapp/bot')
 const flowCandidato = require('./candidatos/flowCandidato')
+const flowConsultora = require('./consultoraOV-academia/flowConsultora')
+const flowOEPersonalFAA = require('./oficialEnlace/flowOE-PersonalFAA')
 
 
 module.exports = addKeyword(EVENTS.WELCOME)
@@ -19,4 +21,4 @@ module.exports = addKeyword(EVENTS.WELCOME)
     ,
     null,
     null,
-    [flowCandidato])
+    [flowCandidato, flowConsultora,flowOEPersonalFAA])

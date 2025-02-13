@@ -2,26 +2,26 @@
   key: {
     remoteJid: '5493512474193@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F6B84F3B12CEDE81D0',
+    id: '3EB01C19BA810E99B92FD2',
     participant: undefined
   },
-  messageTimestamp: 1739399924,
+  messageTimestamp: 1739487498,
   pushName: 'Exequiel',
   broadcast: false,
   message: Message {
-    conversation: 'dgs',
+    conversation: 'hgdyjd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'dgs',
+  body: 'hgdyjd',
   from: '5493512474193'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e665df6d-aabc-462a-9340-65996a4d62c2',
-  keyword: 'key_ca3dfcbf-510e-49d1-897a-787784802d63',
+  ref: 'ans_d2f339dd-610d-494d-9856-f53d3762e656',
+  keyword: 'key_c2218f98-e2ee-4417-9cbc-9c5621770e43',
   answer: '🙌 ¡Hola! Te damos la bienvenida a la Escuela de A M.',
   options: {
     media: null,
@@ -35,11 +35,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3f98a99549dc50610ac5ff84a868c2c2'
+  refSerialize: '7c822bf51323f5f7f23a024c02155f7b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_98941ec8-8964-43a5-9fec-777d715f83b6',
-  keyword: 'ans_e665df6d-aabc-462a-9340-65996a4d62c2',
+  ref: 'ans_3ffb6669-8ed9-4747-8082-00bd96db6207',
+  keyword: 'ans_d2f339dd-610d-494d-9856-f53d3762e656',
   answer: 'Por favor ingresa el número que corresponda a tu consulta:',
   options: {
     media: null,
@@ -53,11 +53,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '798a263c8d15d29ee8216668477de814'
+  refSerialize: 'fd44e8c5ac81d5fe9d16dc8564f8bc4f'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d7a8c918-0b39-440b-97ec-3f636f5e27f8',
-  keyword: 'ans_98941ec8-8964-43a5-9fec-777d715f83b6',
+  ref: 'ans_5d7b1d24-5dce-467b-a355-9d3e70dfe288',
+  keyword: 'ans_3ffb6669-8ed9-4747-8082-00bd96db6207',
   answer: '1- Soy interesado/candidato a la Carrera de Oficial de la Fuerza Aérea.\n' +
     '2- Soy Consultora de Orientación Vocacional/ Academia de preparación para el ingreso/Colegio Secundario/Aeroclub/ExpoCarrera/Otros eventos\n' +
     '3- Soy Oficial de Enlace de Difusión de la Fuerza Aérea.',
@@ -73,11 +73,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'c75c3dd246225a7edb4af5309ee2445a'
+  refSerialize: 'db63873d15739d4e6da1ed1aa2e8838e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cf76a0ec-4a99-48e6-8b53-bbac524bfe6e',
-  keyword: 'ans_d7a8c918-0b39-440b-97ec-3f636f5e27f8',
+  ref: 'ans_2ad57ae2-867d-4d8a-97f6-6d2c9f956f4d',
+  keyword: 'ans_5d7b1d24-5dce-467b-a355-9d3e70dfe288',
   answer: 'Te recordamos que nuestra atención vía WhatsApp es de lunes a viernes,\n' +
     'de 8.00 hs a 14.00 hs. y que esta línea no admite llamadas,\n' +
     'videollamadas ni mensajes de audio.',
@@ -89,85 +89,25 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [ [Object], [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'ce32c6224f5fae93bcfd87fffbbe0ba0'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0B14EBB51167FE9ABBC',
-    participant: undefined
-  },
-  messageTimestamp: 1739399928,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_31e82156-3379-43d3-8f95-4cb351036e1b',
-  keyword: 'key_9f52796c-719a-4b09-b939-979596801453',
-  answer: '📄 Para guiarte mejor, indicanos el número que corresponda:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'b2b0f0683fca5b5d05a471af119181bd'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_066b9409-3d68-4ba6-af3c-408bed002b6e',
-  keyword: 'ans_31e82156-3379-43d3-8f95-4cb351036e1b',
-  answer: '1- Consultas sobre la incorporación.\n' +
-    '2- Consultas sobre la Carrera.\n' +
-    '3- Consultas generales.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
     nested: [
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object],
-      [Object]
+      [Object], [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '744144d527cbe183b6423e5707c9f84c'
+  refSerialize: '816ceb755b210e08b1ec021f9e6d17c3'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5493512474193@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0AC7B22B13C9A3B6768',
+    id: '3EB095C75E6B570EE75249',
     participant: undefined
   },
-  messageTimestamp: 1739399934,
+  messageTimestamp: 1739487501,
   pushName: 'Exequiel',
   broadcast: false,
   message: Message {
@@ -182,9 +122,9 @@
   from: '5493512474193'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  keyword: 'key_50d8bb73-1b16-4643-a6fa-e6a753c1cf21',
-  answer: 'Para poder ayudarte, escribí el número que corresponda a lo que necesitás:',
+  ref: 'ans_9a3d96e8-2856-48b1-91da-01ee68b75278',
+  keyword: 'key_2bc87de1-3b4a-4835-9a3c-7fe1706fe0c1',
+  answer: 'Gracias por ponerse en contacto con la División Difusión de la EAM. Estamos a su disposición para el envío del material necesario relacionado al ingreso e información de la Carrera de Oficial de la Fuerza Aérea Argentina. ',
   options: {
     media: null,
     buttons: [],
@@ -197,59 +137,24 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '55e734b54982f72767eb834b41e980b4'
+  refSerialize: '7d025d81ff29a49f9fd2b0434a19700f'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1346ea54-cdb9-43a7-9d61-7e9f95c0f512',
-  keyword: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  answer: '1. ¿Qúe se puede estudiar en la Fuerza Aérea?\n' +
-    '2. Ingreso de Profesionales \n' +
-    '3. Incorporación como Soldado Voluntario.\n' +
-    '4. Otras consultas.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '89537e2cae90bcee964b6efb1f1f4c53'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB03665778009D418F72F',
-    participant: undefined
-  },
-  messageTimestamp: 1739399941,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f7a4e25b-38de-42a8-a75d-38eaa416d6b7',
-  keyword: 'key_7d0ff8d4-b07d-4076-97e6-242b79ecb0ea',
-  answer: 'Para conocer las diferentes opciones a las cuales te podes incorporar, te dejamos el siguiente link:https://www.argentina.gob.ar/fuerzaaerea/educacion-e-incorporacion/ingreso-la-fuerza-aerea-argentina',
+  ref: 'ans_0fbb23a8-e0dd-4a51-9ecd-a81d38ef5b6a',
+  keyword: 'ans_9a3d96e8-2856-48b1-91da-01ee68b75278',
+  answer: 'Por favor le solicitamos nos escriba detallando su requerimiento a difusioneam@gmail.com o difusion@eam.iua.edu.ar\n' +
+    'Además, cuenta con información permanente en los siguientes \n' +
+    '👇 ENLACES IMPORTANTES: \n' +
+    '👉 5 Videos Tutoriales sobre PASOS PARA EL INGRESO: https://youtube.com/playlist?list=PLeLiGGcwJs2MQ-AWNvS4L7xSBmUXKFuIm\n' +
+    '👉 Enlace a Preguntas Frecuentes: http://www.eam.iua.edu.ar/eam/preguntas-frecuentes/ \n' +
+    '👉 Medios de contacto con la EAM:\n' +
+    '🌐 Formulario de contacto web: http://www.eam.iua.edu.ar/eam/contacto/\n' +
+    '📧 Mail: incorporacion@eam.iua.edu.ar \n' +
+    '🤳 Redes Sociales: \n' +
+    'En Facebook: @escuela.aviacion.militar https://www.facebook.com/escuela.aviacion.militar\n' +
+    ' En Twitter: @EAviacionMil https://twitter.com/eaviacionmil \n' +
+    'En Instagram: @oficialeam https://www.instagram.com/oficialeam \n' +
+    'En YouTube: EAMArgentina https://t.co/Q6v8UQz3ms?amp=1  ',
   options: {
     media: null,
     buttons: [],
@@ -262,317 +167,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e2f573591ccd6e73a7c7cfd1defb6c81'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0AB302C5E8CC05AEA00',
-    participant: undefined
-  },
-  messageTimestamp: 1739399945,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '3',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  keyword: 'key_50d8bb73-1b16-4643-a6fa-e6a753c1cf21',
-  answer: 'Para poder ayudarte, escribí el número que corresponda a lo que necesitás:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '55e734b54982f72767eb834b41e980b4'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1346ea54-cdb9-43a7-9d61-7e9f95c0f512',
-  keyword: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  answer: '1. ¿Qúe se puede estudiar en la Fuerza Aérea?\n' +
-    '2. Ingreso de Profesionales \n' +
-    '3. Incorporación como Soldado Voluntario.\n' +
-    '4. Otras consultas.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '89537e2cae90bcee964b6efb1f1f4c53'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB05B847E370ED5938A5E',
-    participant: undefined
-  },
-  messageTimestamp: 1739399948,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '2',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b7bfccef-61a4-464e-9cb6-2ae12312e33d',
-  keyword: 'key_613fcd9a-ca2e-453b-b734-01621f1101da',
-  answer: 'Si sos profesional, tenés espíritu de servicio y gran vocación militar, esta es tu oportunidad de darle un giro a tu carrera. La Fuerza Aérea Argentina busca egresados de distintas carreras que quieran asimilarse a la Institución y desarrollarse profesionalmente en un ambiente único. En el siguiente link podrás obtener más información:https://www.argentina.gob.ar/fuerzaaerea/educacion-e-incorporacion/ingreso-la-fuerza-aerea-argentina/ingreso-como-profesional',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '75415a56095c0e0ad9cd222062554e1a'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0FAB9B7588ADB37BFEF',
-    participant: undefined
-  },
-  messageTimestamp: 1739399952,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '3',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  keyword: 'key_50d8bb73-1b16-4643-a6fa-e6a753c1cf21',
-  answer: 'Para poder ayudarte, escribí el número que corresponda a lo que necesitás:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '55e734b54982f72767eb834b41e980b4'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1346ea54-cdb9-43a7-9d61-7e9f95c0f512',
-  keyword: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  answer: '1. ¿Qúe se puede estudiar en la Fuerza Aérea?\n' +
-    '2. Ingreso de Profesionales \n' +
-    '3. Incorporación como Soldado Voluntario.\n' +
-    '4. Otras consultas.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '89537e2cae90bcee964b6efb1f1f4c53'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB00B50D88FDCD45DC3CD',
-    participant: undefined
-  },
-  messageTimestamp: 1739399954,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '3',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_930242a8-1b6a-4f04-bafc-58c739d58079',
-  keyword: 'key_ce19a687-2e53-4a5f-b405-7e253b13659d',
-  answer: 'Para consultas sobre el ingreso como Soldado Voluntario, conocé los contactos de los centros de incorporación más cercanos a tu zona de residencia ubicados al final de esta página https://www.argentina.gob.ar/fuerzaaerea/educacion-e-incorporacion/soldados-y-reserva o comunicate por teléfono al (011) 4317-6000 INT. 15577.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '49a0ecdcb7772a7d366addbf20a00c5c'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB05A7E773886C40D6686',
-    participant: undefined
-  },
-  messageTimestamp: 1739399962,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '3',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  keyword: 'key_50d8bb73-1b16-4643-a6fa-e6a753c1cf21',
-  answer: 'Para poder ayudarte, escribí el número que corresponda a lo que necesitás:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '55e734b54982f72767eb834b41e980b4'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1346ea54-cdb9-43a7-9d61-7e9f95c0f512',
-  keyword: 'ans_8f89e273-b238-4caf-9cea-3eb159aec646',
-  answer: '1. ¿Qúe se puede estudiar en la Fuerza Aérea?\n' +
-    '2. Ingreso de Profesionales \n' +
-    '3. Incorporación como Soldado Voluntario.\n' +
-    '4. Otras consultas.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '89537e2cae90bcee964b6efb1f1f4c53'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493512474193@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB04DEC859925C13B27CA',
-    participant: undefined
-  },
-  messageTimestamp: 1739399966,
-  pushName: 'Exequiel',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '4',
-  from: '5493512474193'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1ebbe77a-4724-4371-a025-009b1ad7bb99',
-  keyword: 'key_8374e0ac-3598-478a-b7fc-c13f49a6da1b',
-  answer: ' Otras consultas. En el siguiente link vas a poder encontrar una sección completa de las preguntas más frecuentes con sus respectivas respuestas.http://www.eam.iua.edu.ar/eam/preguntas-frecuentes/',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '7400ec93791e41185c024fe89caa8556'
+  refSerialize: 'bff22b649ee336ffc963b099bc7865e0'
 }
